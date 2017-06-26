@@ -1,0 +1,44 @@
+<resources>
+  <string name="app_name">Tubing</string>
+
+  <!-- FONT -->
+  <string name="NotoSans_Light">fonts/NotoSans-Light.otf</string>
+  <string name="NotoSans_Regular">fonts/NotoSans-Regular.otf</string>
+  <string name="NotoSans_Medium">fonts/NotoSans-Medium.otf</string>
+  <string name="NotoSans_Bold">fonts/NotoSans-Bold.otf</string>
+  <string name="Roboto_Bold">fonts/Roboto-Bold.ttf</string>
+  <string name="Roboto_Regular">fonts/Roboto-Regular.ttf</string>
+  <string name="Roboto_Light">fonts/Roboto-Light.ttf</string>
+
+
+  <string name="drawer_open">Open navigation drawer</string>
+  <string name="drawer_close">Close navigation drawer</string>
+
+  <!--인앱 테스트-->
+  <string name="subscription_period_prompt">Select your subscription period</string>
+  <string name="subscription_resignup_prompt">To reactivate your subscription, select your subscription period</string>
+  <string name="subscription_update_prompt">To change your subscription, select your new subscription period</string>
+  <string name="subscription_period_monthly">Monthly</string>
+  <string name="subscription_period_yearly">Yearly</string>
+  <string name="subscription_prompt_continue">Continue</string>
+  <string name="subscription_prompt_cancel">Cancel</string>
+  <string name="content_description_app_loading_image">App loading image</string>
+  <string name="content_description_title_image">80\'s Video Game Style Car Logo</string>
+  <string name="content_desc_gas_gauge_indicator">Gas gauge indicator</string>
+  <string name="content_desc_free_vs_premium_indicator">Free or Premium Image Indicator</string>
+
+  <string name="home">Home</string>
+  <string name="highlight">Highlight</string>
+  <string name="history">History</string>
+  <string name="purchase">어학기 이용권 구매</string>
+  <string name="login">Login</string>
+  <string name="left_time">%1$d일 남음</string>
+  <string name="coupon_count">선물 쿠폰: %1$d장</string>
+  <string name="setting">Setting</string>
+  <string name="help">Help</string>
+  <string name="qna">문의하기</string>
+
+
+
+
+</resources>

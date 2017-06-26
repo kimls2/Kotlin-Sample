@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/userInfoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/userProfileIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="17dp"
+                android:src="@drawable/profile_d" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userNicknameTv"
+                    fontPath="@string/Roboto_Bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:text="Yisuk Kim"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    tools:ignore="MissingPrefix" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/leftTimeIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/freeticket_icon" />
+
+                    <TextView
+                        android:id="@+id/leftTimeTv"
+                        fontPath="@string/NotoSans_Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="22dp"
+                        android:text="@string/left_time"
+                        android:textColor="@color/left_time"
+                        android:textSize="11sp"
+                        tools:ignore="MissingPrefix" />
+
+                    <ImageView
+                        android:id="@+id/couponCountIv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/giftticket_icon" />
+
+                    <TextView
+                        android:id="@+id/couponCountTv"
+                        fontPath="@string/NotoSans_Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="22dp"
+                        android:text="@string/coupon_count"
+                        android:textColor="@color/coupon_count"
+                        android:textSize="11sp"
+                        tools:ignore="MissingPrefix" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navigationAddLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:background="@color/b"
+            tools:layout_height="150dp"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loginLayout"
+        fontPath="@string/Roboto_Bold"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:visibility="visible"
+        tools:ignore="MissingPrefix"
+        tools:visibility="gone" />
+
+</FrameLayout>
